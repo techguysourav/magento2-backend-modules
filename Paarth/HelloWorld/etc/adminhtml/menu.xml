@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2015 Paarth. All rights reserved.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../Backend/etc/menu.xsd">
+    <menu>   
+	 
+	   <add
+					id="Paarth_HelloWorld::helloworld"
+					title="HelloWorld"
+					module="Paarth_HelloWorld"
+					sortOrder="62"
+				
+					resource="Paarth_HelloWorld::helloworld"
+/>
+				<add
+							id="Paarth_HelloWorld::index"
+							title="Helloworld Index"
+							module="Paarth_HelloWorld"
+							sortOrder="65"
+							parent="Paarth_HelloWorld::helloworld"
+							action="paarth_helloworld/index/"
+							resource="Paarth_HelloWorld::index"
+				/>
+        <!--AddMenu-->
+    </menu>
+</config>
