@@ -23,16 +23,9 @@ Files:
 
 example : Add under Marketing menu item.Attribute parent="Magento_Backend::marketing"  used .
 
-<add
-		id="Packt_HelloWorld::helloworld"
-		title="HelloWorld"
-		module="Packt_HelloWorld"
-		sortOrder="50"
-		parent="Magento_Backend::marketing"
-		resource="Packt_HelloWorld::helloworld"
-/>
-
-
+<p>
+<add		id="Packt_HelloWorld::helloworld" title="HelloWorld" module="Packt_HelloWorld" sortOrder="50" parent="Magento_Backend::marketing" 	resource="Packt_HelloWorld::helloworld" />
+</p>
 
 
 
