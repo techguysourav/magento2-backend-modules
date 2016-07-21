@@ -8,7 +8,7 @@ Files:
 	Place this file in path-to-module/etc/adminhtml/menu.xml
 
 2) acl.xml
-	Place this file in path-to-module/etc/acl.xml.Active access to this menu item.
+	Place this file in path-to-module/etc/acl.xml. Active access to this menu item.
 
 ## Steps
 
